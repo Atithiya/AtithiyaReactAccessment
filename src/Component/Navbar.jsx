@@ -15,8 +15,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-end">
           <Link to={"/"} className="btn mr-4">
-            Hom
-          </Link>g
+            Home
+          </Link>
           <Link to={"/Owner"} className="btn mr-4">
             Owner
           </Link>
