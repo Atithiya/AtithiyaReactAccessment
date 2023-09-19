@@ -1,11 +1,9 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+
 import { Link } from "react-router-dom";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function Navbar() {
   return (
@@ -17,8 +15,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-end">
           <Link to={"/"} className="btn mr-4">
-            Home
-          </Link>
+            Hom
+          </Link>g
           <Link to={"/Owner"} className="btn mr-4">
             Owner
           </Link>
