@@ -8,7 +8,7 @@ function Owner() {
     <Navbar />
     <div>
     <div className="card  bg-base-100 shadow-xl glass m-5">
-  <figure><img src={OwnerImage} alt="Album" className='w-60 card shadow-2xl'/></figure>
+  <figure><img src={OwnerImage} alt="Album" className='w-60 card drop-shadow-md'/></figure>
   <div className="card-body">
     <h2 className="card-title">Atithiya Inthorn</h2>
     <p>Hello !, My name is Atithiya Inthorn. I am a graduated from Junior Software Developer 5 of Generation Thailand.
